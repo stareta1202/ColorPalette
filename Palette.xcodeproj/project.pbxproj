@@ -13,6 +13,12 @@
 		12561967277580EC009B04AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12561955277580EB009B04AF /* ContentView.swift */; };
 		12561968277580EC009B04AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12561956277580EC009B04AF /* Assets.xcassets */; };
 		12561969277580EC009B04AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12561956277580EC009B04AF /* Assets.xcassets */; };
+		1256197327758635009B04AF /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256197227758635009B04AF /* ColorModel.swift */; };
+		1256197427758635009B04AF /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256197227758635009B04AF /* ColorModel.swift */; };
+		127F32A7277858B900F3B415 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F32A6277858B900F3B415 /* SearchView.swift */; };
+		127F32A8277858B900F3B415 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F32A6277858B900F3B415 /* SearchView.swift */; };
+		127F32AB27785E9B00F3B415 /* ColorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F32AA27785E9B00F3B415 /* ColorApi.swift */; };
+		127F32AC27785E9B00F3B415 /* ColorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F32AA27785E9B00F3B415 /* ColorApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,9 @@
 		1256195B277580EC009B04AF /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12561961277580EC009B04AF /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12561963277580EC009B04AF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1256197227758635009B04AF /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		127F32A6277858B900F3B415 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		127F32AA27785E9B00F3B415 /* ColorApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +63,12 @@
 		12561953277580EB009B04AF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				127F32A927785E8C00F3B415 /* Network */,
 				12561954277580EB009B04AF /* PaletteApp.swift */,
 				12561955277580EB009B04AF /* ContentView.swift */,
 				12561956277580EC009B04AF /* Assets.xcassets */,
+				1256197227758635009B04AF /* ColorModel.swift */,
+				127F32A6277858B900F3B415 /* SearchView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +88,14 @@
 				12561963277580EC009B04AF /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		127F32A927785E8C00F3B415 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				127F32AA27785E9B00F3B415 /* ColorApi.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F32A7277858B900F3B415 /* SearchView.swift in Sources */,
+				127F32AB27785E9B00F3B415 /* ColorApi.swift in Sources */,
 				12561966277580EC009B04AF /* ContentView.swift in Sources */,
 				12561964277580EC009B04AF /* PaletteApp.swift in Sources */,
+				1256197327758635009B04AF /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F32A8277858B900F3B415 /* SearchView.swift in Sources */,
+				127F32AC27785E9B00F3B415 /* ColorApi.swift in Sources */,
 				12561967277580EC009B04AF /* ContentView.swift in Sources */,
 				12561965277580EC009B04AF /* PaletteApp.swift in Sources */,
+				1256197427758635009B04AF /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
